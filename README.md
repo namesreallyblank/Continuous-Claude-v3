@@ -170,7 +170,7 @@ git clone https://github.com/parcadei/Continuous-Claude-v3.git
 cd Continuous-Claude-v3/opc
 
 # Run setup wizard (12 steps)
-uv run python scripts/setup/wizard.py
+uv run python -m scripts.setup.wizard
 ```
 
 > **Note:** The `pyproject.toml` is in `opc/`. Always run `uv` commands from the `opc/` directory.
@@ -944,7 +944,7 @@ git clone https://github.com/parcadei/continuous-claude.git
 cd continuous-claude/opc
 
 # Run the setup wizard
-uv run python scripts/setup/wizard.py
+uv run python -m scripts.setup.wizard
 ```
 
 The wizard walks you through all configuration options interactively.
